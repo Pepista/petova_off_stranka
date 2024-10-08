@@ -8,7 +8,7 @@
 .env
 .env.backup
 .env.production
-.phpactor.json
+.phpactor.jsoncd
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
