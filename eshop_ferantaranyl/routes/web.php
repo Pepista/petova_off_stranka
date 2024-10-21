@@ -17,3 +17,8 @@ Route::get('/register', function () {
 Route::get('/auth', function () {
     return view('auth');
 });
+
+Route::get('/products', function () {
+    return view('products.index');
+});
+
