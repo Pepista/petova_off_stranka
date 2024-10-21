@@ -48,20 +48,21 @@
             margin-top: 40px;
         }
         .button {
-            background-color: red;
-            color: white;
-            border: none;
-            padding: 15px 25px;
-            font-size: 1.2em;
-            cursor: pointer;
-            border-radius: 5px;
-            margin: 10px;
-            transition: background-color 0.3s;
-        }
-        .button:hover {
-            background-color: darkred;
-        }
-    </style>
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+    </style> 
 </head>
 <body>
 
